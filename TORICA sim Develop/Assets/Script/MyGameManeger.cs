@@ -65,6 +65,17 @@ public class MyGameManeger : MonoBehaviour
 
     [System.NonSerialized] public float SoundBolume = 50;
 
+
+
+
+
+    [System.NonSerialized]
+    public List<ReplayData> replayDataList; // リプレイデータを格納するリスト
+
+
+
+
+
     // Start is called before the first frame update
     void Awake()
     {
